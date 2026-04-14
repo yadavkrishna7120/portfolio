@@ -1,4 +1,5 @@
 import { Icons } from '@/components/icons';
+import { SOURCE_CODE_GITHUB_URL } from '@/config/site';
 import { USER } from '@/config/user';
 
 export const DockConfig = {
@@ -14,7 +15,7 @@ export const DockConfig = {
     social: {
       GitHub: {
         name: 'GitHub',
-        url: USER.social.github,
+        url: SOURCE_CODE_GITHUB_URL,
         icon: Icons.github,
       },
       LinkedIn: {
