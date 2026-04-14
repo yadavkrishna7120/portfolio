@@ -5,5 +5,5 @@ export const VARIANT_TO_FROM_MAP = {
 };
 
 export const RESEND_AUDIENCES = {
-  'miravasquez': '1e01ba3b-611c-4077-8416-96fe80f77147',
+  srisomanaath: '1e01ba3b-611c-4077-8416-96fe80f77147',
 };
