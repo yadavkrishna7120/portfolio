@@ -1,136 +1,71 @@
-# Ruixen Portfolio
+# [srisomanaath](https://srisomanaath)
 
-A production-ready portfolio template built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. Features smooth scroll animations, modern UI, and optimized for performance.
+A minimal portfolio, component registry to showcase my work.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ruixenui/portfolio-template)
+Check out the live site: [srisomanaath](https://srisomanaath?ref=github)
 
-**Live Demo:** [https://portfolio-mocha-three-0caesswhna.vercel.app](https://portfolio-mocha-three-0caesswhna.vercel.app)
+## GitAds Sponsored
 
-## Features
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=srisomanaath/srisomanaath@github)](https://gitads.dev/v1/ad-track?source=srisomanaath/srisomanaath@github)
 
-- Built with **Next.js 14** and **TypeScript**
-- Smooth scroll animations with **Framer Motion**
-- Responsive UI styled with **Tailwind CSS**
-- Interactive skills section with filtering
-- Timeline-based work experience
-- **SEO-friendly** with sitemap and robots.txt
-- Dark/Light mode ready
-- One-click Vercel deployment
+<!-- GitAds-Verify: DIY18X7KPF4S8175ESJPKIUYLPAEUGXI -->
 
-## Quick Start
+## Overview
 
-### Deploy on Vercel (Recommended)
+### Tech Stack
 
-Click the button below to deploy your own copy:
+- Next.js 15
+- Tailwind CSS v4
+- shadcn/ui
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ruixenui/portfolio-template)
+### Featured
 
-### Local Development
+- Clean & modern design
+- Light & Dark theme support
+- vCard integration
+- SEO optimization: [JSON-LD schema](https://json-ld.org), sitemap, robots
+- AI-friendly [/llms.txt](https://llmstxt.org)
+- Spam-protected email
+- Installable PWA
 
-```bash
-# Clone the repository
-git clone https://github.com/ruixenui/portfolio-template.git
+### Blog
 
-# Navigate to the project
-cd portfolio-template
+- MDX & Markdown support
+- Access markdown by adding `.mdx` to URLs, e.g. `/blog/welcome.mdx`
+- Syntax Highlighting for better readability
+- RSS Feed for easy content distribution
+- Dynamic OG Images for rich previews
 
-# Install dependencies
-pnpm install
+### Component Registry
 
-# Start development server
-pnpm dev
-```
+Easily build and distribute your own components, hooks, and pages using a custom registry powered by the [shadcn CLI](https://ui.shadcn.com/docs/cli).
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Each component is well-documented through the Blog, featuring:
 
-## Project Structure
+- **Live Preview**: Interactive component demos
+- **Code Snippets**: Readable and copyable examples
+- **Beautiful Code Blocks**: Styled for clarity and dark mode
+- **Command Blocks**: One-click copy for quick install commands (`pnpm`, `npm`, `yarn`, `bun`)
 
-```
-├── public/                    # Static assets (images, resume)
-├── src/
-│   ├── app/                   # Next.js App Router pages
-│   ├── components/            # Reusable UI components
-│   │   ├── ui/               # Base UI components
-│   │   ├── magicui/          # Animation components
-│   │   └── ruixen/           # Custom components
-│   ├── data/                  # Portfolio data (resume-data.tsx)
-│   └── lib/                   # Utility functions
-├── next-sitemap.config.js     # Sitemap configuration
-├── vercel.json                # Vercel deployment config
-└── package.json
-```
+## Development
 
-## Customization
-
-### Update Your Information
-
-Edit `src/data/resume-data.tsx` to update:
-
-- Name and title
-- Avatar image
-- About/Summary
-- Work experience
-- Education
-- Skills
-- Projects
-- Extra-curricular activities
-- Social links
-
-### Add Your Avatar
-
-Place your profile image in the `public/` folder and update `avatarUrl` in `resume-data.tsx`:
-
-```typescript
-avatarUrl: "/your-image.jpg",
-```
-
-## Sitemap and SEO
-
-This project uses **next-sitemap** to generate sitemap and robots.txt automatically after build.
-
-### Configuration
-
-Update `next-sitemap.config.js` with your domain:
-
-```js
-module.exports = {
-  siteUrl: "https://yourdomain.com",
-  generateRobotsTxt: true,
-};
-```
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Click the **Deploy** button above, or
-2. Push to GitHub and import in [Vercel Dashboard](https://vercel.com/new)
-
-### Other Platforms
-
-- **Netlify**: Connect your repo and set build command to `pnpm build`
-- **AWS Amplify**: Import from GitHub with Next.js preset
-- **Self-hosted**: Run `pnpm build && pnpm start`
-
-## Tech Stack
-
-- [Next.js 14](https://nextjs.org/) - React framework
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [Framer Motion](https://www.framer.com/motion/) - Animations
-- [Radix UI](https://www.radix-ui.com/) - UI primitives
-- [Lucide Icons](https://lucide.dev/) - Icons
-
-## Contact & Support
-
-- **Website**: [ruixen.com](https://ruixen.com)
-- **Email**: [support@ruixen.com](mailto:support@ruixen.com)
-- **Feedback**: [feedback@ruixen.com](mailto:feedback@ruixen.com)
+Please refer to the [Development Guide](./DEVELOPMENT.md) for more details.
 
 ## License
 
-MIT License - feel free to use this template for your portfolio!
+Licensed under the [MIT license](./LICENSE).
 
----
+You're free to use my code! Just make sure to <ins>remove all my personal information</ins> before publishing your website. It's awesome to see my code being useful to someone!
 
-Made with love by **Ruixen UI**
+## Acknowledgments
+
+- [React](https://react.dev)
+- [Next.js](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Radix UI](https://www.radix-ui.com)
+- [Motion](https://motion.dev)
+- [shadcn/ui](https://ui.shadcn.com)
+- [Aceternity UI](https://ui.aceternity.com)
+- [Lucide](https://lucide.dev)
+- [Fumadocs](https://fumadocs.dev)
+- And many other open-source libraries used in `package.json`
