@@ -26,7 +26,7 @@ export async function GET() {
     feed.item({
       title: post.metadata.title,
       description: post.metadata.description,
-      url: `https://www.miravasquez.dev/craft/${post.slug}`,
+      url: `https://portfolio-ruixens-projects.vercel.app/craft/${post.slug}`,
       author: 'Noah Bennett',
       date: new Date(post.metadata.date),
     });

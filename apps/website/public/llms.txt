@@ -3,10 +3,10 @@
 > Notes on building thoughtful products, navigating frontend architecture, and figuring out what good software really looks like.
 
 
-- [About](https://miravasquez.dev/me/about.md): A quick intro to me, my tech stack, and how to connect.
-- [Experience](https://miravasquez.dev/me/experience.md): Highlights from my career and key roles I've taken on.
-- [Craft](https://miravasquez.dev/me/craft.md): A collection of my work.
-- [Bookmarks](https://miravasquez.dev/me/bookmarks.md): Bookmarks from my collections.
+- [About](https://portfolio-ruixens-projects.vercel.app/me/about.md): A quick intro to me, my tech stack, and how to connect.
+- [Experience](https://portfolio-ruixens-projects.vercel.app/me/experience.md): Highlights from my career and key roles I've taken on.
+- [Craft](https://portfolio-ruixens-projects.vercel.app/me/craft.md): A collection of my work.
+- [Bookmarks](https://portfolio-ruixens-projects.vercel.app/me/bookmarks.md): Bookmarks from my collections.
 
 ## Craft
 
@@ -30,13 +30,13 @@ This file provides LLM-friendly entry points to Crafts
 
 ## Components
 
-- [Book](https://miravasquez.dev/craft/book): A book component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Game of Life](https://miravasquez.dev/craft/game-of-life): A game of life component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Magical Mouse](https://miravasquez.dev/craft/magical-mouse): A magical mouse component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Modern Progress](https://miravasquez.dev/craft/modern-progress): A modern progress component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Pixel Icon](https://miravasquez.dev/craft/pixel-icon): A pixel icon component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Split Text Effect](https://miravasquez.dev/craft/split-text-effect): A split text effect component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [View Magnifier](https://miravasquez.dev/craft/view-magnifier): A view magnifier component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Book](https://portfolio-ruixens-projects.vercel.app/craft/book): A book component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Game of Life](https://portfolio-ruixens-projects.vercel.app/craft/game-of-life): A game of life component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Magical Mouse](https://portfolio-ruixens-projects.vercel.app/craft/magical-mouse): A magical mouse component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Modern Progress](https://portfolio-ruixens-projects.vercel.app/craft/modern-progress): A modern progress component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Pixel Icon](https://portfolio-ruixens-projects.vercel.app/craft/pixel-icon): A pixel icon component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Split Text Effect](https://portfolio-ruixens-projects.vercel.app/craft/split-text-effect): A split text effect component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [View Magnifier](https://portfolio-ruixens-projects.vercel.app/craft/view-magnifier): A view magnifier component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
 
 ## Examples
 
@@ -56,4 +56,4 @@ This file provides LLM-friendly entry points to Crafts
 ## Optional
 
 - [Repository](https://github.com/ruixenui/portfolio): Source code and issues
-- [Sitemap](https://miravasquez.dev/sitemap.xml): Indexable pages
+- [Sitemap](https://portfolio-ruixens-projects.vercel.app/sitemap.xml): Indexable pages

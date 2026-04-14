@@ -23,7 +23,7 @@ const DEFAULT: RegistryItem = {
 
 export const registry = {
   name: 'miravasquez',
-  homepage: 'https://miravasquez.dev',
+  homepage: 'https://portfolio-ruixens-projects.vercel.app',
   items: registryIndexSchema.parse(
     [DEFAULT, ...ui, ...examples, ...lib, ...styles].filter((item) => {
       return !DEPRECATED_ITEMS.includes(item.name);

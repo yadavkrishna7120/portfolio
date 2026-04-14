@@ -10,12 +10,12 @@ type MetadataGenerator = Omit<Metadata, 'description' | 'title'> & {
 const applicationName = 'Noah Bennett';
 const author: Metadata['authors'] = {
   name: 'Noah Bennett',
-  url: 'https://miravasquez.dev/',
+  url: 'https://portfolio-ruixens-projects.vercel.app/',
 };
 const publisher = 'Noah Bennett';
-const twitterHandle = '@maboroshi_dev';
+const twitterHandle = '@ruixen_ui';
 const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
-const productionUrl = 'https://miravasquez.dev/';
+const productionUrl = 'https://portfolio-ruixens-projects.vercel.app/';
 
 export const createMetadata = ({
   title,
