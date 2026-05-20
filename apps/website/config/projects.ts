@@ -36,7 +36,6 @@ export const PROJECTS: Project[] = [
       start: '03.2025',
     },
     link: 'https://palettebox.design/',
-    github: 'https://github.com/maboroshi/palettebox',
     logo: '/project_images/ruixen_ui_logo.jpeg',
     skills: [
       'Next.js',
@@ -63,7 +62,6 @@ Features include:
       start: '09.2024',
     },
     link: 'https://hookshelf.dev/',
-    github: 'https://github.com/maboroshi/hookshelf',
     logo: '/project_images/shadcnagents.png',
     skills: ['React', 'TypeScript', 'Storybook', 'Vitest', 'npm'],
     shortDescription:
