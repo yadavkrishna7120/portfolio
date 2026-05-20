@@ -45,7 +45,7 @@ export default async function Page() {
       <JsonLd code={jsonLd} />
       <Info show={['time', 'screen', 'llms']} />
       <ScrollArea useScrollAreaId className="">
-        <FloatingHeader scrollTitle="Noah Bennett" />
+        <FloatingHeader scrollTitle="Ruixen" />
 
         <Separator />
 
@@ -55,8 +55,8 @@ export default async function Page() {
           <RevealOnLoad delay={0} duration={0.5}>
             <div className="space-y-1">
               <div className="flex items-center gap-2">
-                <h1 className="font-semibold text-2xl">Noah Bennett</h1>
-                <PronounceMyName name="Noah Bennett" />
+                <h1 className="font-semibold text-2xl">Ruixen</h1>
+                <PronounceMyName name="Ruixen" />
               </div>
               <p className="font-mono text-sm tracking-wider text-muted-foreground uppercase">
                 {USER.jobTitle}
@@ -68,16 +68,14 @@ export default async function Page() {
           <RevealOnLoad delay={0.15} duration={0.5}>
             <div className="mt-6 space-y-3 text-foreground/70">
               <p className="leading-relaxed">
-                Hey, I'm Noah. I'm a product engineer based in Vancouver who
-                obsesses over the space where design meets code. I love turning
-                rough ideas into polished experiences that feel effortless.
+                Ruixen is a small UI engineering studio working at the
+                intersection of design and code. We turn rough ideas into
+                polished experiences that feel effortless.
               </p>
               <p className="leading-relaxed">
-                Most of my energy goes into building thoughtful interfaces,
-                component libraries, and developer tools. I care deeply about
-                accessibility, performance, and making software that respects
-                people's time. When I'm not coding, I'm probably sketching UI
-                flows or hiking the North Shore trails.
+                Our focus is on thoughtful interfaces, component libraries, and
+                developer tooling — with care for accessibility, performance,
+                and making software that respects people's time.
               </p>
             </div>
           </RevealOnLoad>

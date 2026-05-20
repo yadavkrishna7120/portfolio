@@ -22,7 +22,7 @@ const DEFAULT: RegistryItem = {
 };
 
 export const registry = {
-  name: 'miravasquez',
+  name: 'ruixen',
   homepage: 'https://portfolio-ruixens-projects.vercel.app',
   items: registryIndexSchema.parse(
     [DEFAULT, ...ui, ...examples, ...lib, ...styles].filter((item) => {

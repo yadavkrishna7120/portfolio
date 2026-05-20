@@ -10,7 +10,7 @@ export const SOURCE_CODE_GITHUB_URL =
   'https://github.com/ruixenui/portfolio';
 
 export const UTM_PARAMS = {
-  utm_source: 'noahbennett',
+  utm_source: 'ruixen',
   utm_medium: 'portfolio_website',
   utm_campaign: 'referral',
 };

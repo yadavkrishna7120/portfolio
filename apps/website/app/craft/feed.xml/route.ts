@@ -16,7 +16,7 @@ export async function GET() {
     site_url: `https://${USER.domain}`,
     managingEditor: `${USER.email} (${USER.name})`,
     webMaster: `${USER.email} (${USER.name})`,
-    copyright: `Copyright ${new Date().getFullYear().toString()}, Noah Bennett`,
+    copyright: `Copyright ${new Date().getFullYear().toString()}, Ruixen`,
     language: 'en-US',
     pubDate: new Date().toUTCString(),
     ttl: 60,
@@ -27,7 +27,7 @@ export async function GET() {
       title: post.metadata.title,
       description: post.metadata.description,
       url: `https://portfolio-ruixens-projects.vercel.app/craft/${post.slug}`,
-      author: 'Noah Bennett',
+      author: 'Ruixen',
       date: new Date(post.metadata.date),
     });
   });
