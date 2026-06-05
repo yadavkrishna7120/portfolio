@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: yadav-krishna-portfolio
+    runtime: static
+    buildCommand: rm -rf dist && mkdir -p dist && cp static-site/index.html static-site/style.css static-site/*.jpg static-site/.nojekyll dist/
+    staticPublishPath: ./dist
+    autoDeployTrigger: commit
+    headers:
+      - path: "/*"
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: "/*"
+        name: X-Content-Type-Options
+        value: nosniff
