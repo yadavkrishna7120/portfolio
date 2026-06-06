@@ -1,9 +1,9 @@
 {
-  "name": "srisomanaath",
+  "name": "yadav-krishna-portfolio",
   "version": "0.0.1",
   "files": ["dist/index.js"],
   "scripts": {
-    "build": "turbo build",
+    "build": "node scripts/build-static.mjs",
     "dev": "turbo dev",
     "lint": "ultracite lint",
     "format": "ultracite format",

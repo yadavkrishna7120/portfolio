@@ -2,7 +2,7 @@ services:
   - type: web
     name: yadav-krishna-portfolio
     runtime: static
-    buildCommand: rm -rf dist && mkdir -p dist && cp static-site/index.html static-site/style.css static-site/*.jpg static-site/.nojekyll dist/
+    buildCommand: npm run build
     staticPublishPath: ./dist
     autoDeployTrigger: commit
     headers:
